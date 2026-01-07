@@ -1,0 +1,43 @@
+:root {
+  --health-teal: #00A896;
+  --eco-green: #02C39A;
+  --fresh-mint: #05668D;
+  --sky-blue: #028090;
+  --soft-aqua: #E0F7FA;
+  --pure-white: #FFFFFF;
+  --warm-orange: #F77F00;
+  --earth-brown: #8B4513;
+  --dark-text: #2C3E50;
+  --light-gradient-start: #F0F9FF;
+  --light-gradient-end: #E0F7FA;
+  --success-green: #00B894;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: linear-gradient(135deg, var(--light-gradient-start) 0%, var(--light-gradient-end) 100%);
+  color: var(--dark-text);
+}
+
+a {
+  color: var(--fresh-mint);
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: var(--health-teal);
+}
